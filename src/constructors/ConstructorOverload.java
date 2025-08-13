@@ -2,16 +2,16 @@ package constructors;
 
 import java.io.*;
 
-class Geeks {
+class People {
 
     // constructor with one argument
-    Geeks(String name) {
+    People(String name) {
         System.out.println("Constructor with one "
                 + "argument - String: " + name);
     }
 
     // constructor with two arguments
-    Geeks(String name, int age) {
+    People(String name, int age) {
 
         System.out.println(
                 "Constructor with two arguments: "
@@ -20,7 +20,7 @@ class Geeks {
 
     // Constructor with one argument but with different
     // type than previous
-    Geeks(long id) {
+    People(long id) {
         System.out.println(
                 "Constructor with one argument: "
                         + "Long: " + id);
@@ -34,14 +34,14 @@ class ConstructorOverload {
 
         // Invoke the constructor with one argument of
         // type 'String'.
-        Geeks character_one = new Geeks("Sam");
+        People character_one = new People("Sam");
 
         // Invoke the constructor with two arguments
-        Geeks character_two = new Geeks("Miya", 28);
+        People character_two = new People("Miya", 28);
 
         // Invoke the constructor with one argument of
         // type 'Long'.
-        Geeks character_three = new Geeks(325614567L);
-        Geeks character_four = new Geeks(43034);
+        People character_three = new People(325614567L);
+        People character_four = new People(43034);
     }
 }
