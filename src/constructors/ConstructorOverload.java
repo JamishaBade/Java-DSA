@@ -1,21 +1,17 @@
 package constructors;
-// Java Program to illustrate constructor overloading
-// using same task (addition operation ) for different
-// types of arguments
+
 import java.io.*;
 
-  class Geeks {
+class Geeks {
 
     // constructor with one argument
-    Geeks(String name)
-    {
+    Geeks(String name) {
         System.out.println("Constructor with one "
                 + "argument - String: " + name);
     }
 
     // constructor with two arguments
-    Geeks(String name, int age)
-    {
+    Geeks(String name, int age) {
 
         System.out.println(
                 "Constructor with two arguments: "
@@ -24,8 +20,7 @@ import java.io.*;
 
     // Constructor with one argument but with different
     // type than previous
-    Geeks(long id)
-    {
+    Geeks(long id) {
         System.out.println(
                 "Constructor with one argument: "
                         + "Long: " + id);
@@ -33,21 +28,20 @@ import java.io.*;
 }
 
 class ConstructorOverload {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         // Creating the objects of the class named 'Geek'
         // by passing different arguments
 
         // Invoke the constructor with one argument of
         // type 'String'.
-        Geeks geek2 = new Geeks("Sweta");
+        Geeks character_one = new Geeks("Sam");
 
         // Invoke the constructor with two arguments
-        Geeks geek3 = new Geeks("Amiya", 28);
+        Geeks character_two = new Geeks("Miya", 28);
 
         // Invoke the constructor with one argument of
         // type 'Long'.
-        Geeks geek4 = new Geeks(325614567L);
-        Geeks geek5=new Geeks(43034);
+        Geeks character_three = new Geeks(325614567L);
+        Geeks character_four = new Geeks(43034);
     }
 }
