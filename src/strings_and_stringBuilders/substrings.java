@@ -1,4 +1,4 @@
-package strings_and_stringBuilders.substring_;
+package strings_and_stringBuilders;
 
 public class substrings {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package strings_and_stringBuilders.substring_;
+package strings_and_stringBuilders.Exercises;
 //given a string s, print all the substrings of s
 
 // input- "abcd", output- "a ab abc abcd b bc bcd c cd d"

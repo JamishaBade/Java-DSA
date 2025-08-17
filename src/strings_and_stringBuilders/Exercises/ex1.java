@@ -1,4 +1,4 @@
-package strings_and_stringBuilders.substring_;
+package strings_and_stringBuilders.Exercises;
 
 public class ex1 {
 
