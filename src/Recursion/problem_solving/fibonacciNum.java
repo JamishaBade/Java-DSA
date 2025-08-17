@@ -17,3 +17,5 @@ public class fibonacciNum {
 
   }
 }
+
+/* Time complexity is approximately O(2^n) */

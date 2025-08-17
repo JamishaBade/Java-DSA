@@ -21,3 +21,9 @@ public class printDecreasing {
   }
 
 }
+
+/*
+ * 
+ * Time complexity:
+ * O(n);
+ */
