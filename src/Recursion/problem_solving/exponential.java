@@ -3,10 +3,10 @@ package Recursion.problem_solving;
 //given two numbers p and q, find the value of p to the power q using recursion functions.
 public class exponential {
   static int findExponent(int p, int q) {
-
-    if (q == 1) {
-      return p;
+    if (q == 0) {
+      return 1;
     }
+
     return findExponent(p, q - 1) * p;
   }
 
@@ -16,6 +16,7 @@ public class exponential {
     System.out.println("The exponent of p to the power q is " + findExponent(8, 2));
     System.out.println("The exponent of p to the power q is " + findExponent(10, 2));
     System.out.println("The exponent of p to the power q is " + findExponent(8, 3));
+    System.out.println("The exponent of p to the power q is " + findExponent(8, 0));
 
   }
 
