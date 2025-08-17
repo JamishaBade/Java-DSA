@@ -1,4 +1,4 @@
-package strings_and_stringBuilders;
+package strings_and_stringBuilders.substring_;
 
 public class substrings {
   public static void main(String[] args) {
@@ -6,7 +6,6 @@ public class substrings {
     System.out.println(str.substring(1, 4));// the begin index is included but the endIndex is excluded
     // substring is a CONTINOUS part of a string
     // a, b, c, d, ab, abc, abcd, bc, bcd, cd
-
   }
 
 }
