@@ -9,13 +9,6 @@ The purpose of this project is to document my self-learning journey in computer 
 
 I am currently working through and learning the concepts.
 
-## Contact
-
-For feedback or questions, feel free to reach out:
-
-- Email: badejamisha@gmail.com
-- GitHub: [https://github.com/JamishaBade](https://github.com/JamishaBade)
-
 ## License
 
 This project is licensed under the MIT license
