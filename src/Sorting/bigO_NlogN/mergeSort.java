@@ -9,7 +9,7 @@ public class mergeSort {
       int mid = left + (right - left) / 2;
 
       // sorts the first and second halves of the array
-      mergeSort(arr, left, mid);
+      mergeSort(arr, left, mid); //12 0 0
       mergeSort(arr, mid + 1, right);
 
       // this is the self work
